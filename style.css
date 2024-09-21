@@ -1,0 +1,39 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(45deg, #7E8987, #4B4A67, #DDD1C7);
+  background-size: cover; /* This will cover the entire body */
+  background-attachment: fixed; /* Optional: keeps the background fixed during scrolling */
+  margin: 0; /* Ensures there’s no default margin */
+  height: 100vh; /* Sets the height of the body to the full viewport height */
+}
+
+section {
+  text-align: center;
+}
+.game--container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+  color: #DDD1C7;
+  background-color: #8DB580;
+}
+.cell {
+  font-family: "Permanent Marker", cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #333333;
+  border: 1px solid #333333;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+h2 {
+  color: #DDD1C7;
+}
+
+
+h1 {
+  color: #DDD1C7;
+}
