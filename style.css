@@ -1,10 +1,10 @@
 body {
   font-family: "Arial", sans-serif;
   background: linear-gradient(45deg, #7E8987, #4B4A67, #DDD1C7);
-  background-size: cover; /* This will cover the entire body */
-  background-attachment: fixed; /* Optional: keeps the background fixed during scrolling */
-  margin: 0; /* Ensures there’s no default margin */
-  height: 100vh; /* Sets the height of the body to the full viewport height */
+  background-size: cover; 
+  background-attachment: fixed; 
+  margin: 0; 
+  height: 100vh;
 }
 
 section {
